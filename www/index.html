@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"> 
-        <meta content="telephone=no" name="format-detection">
-        <meta content="no" name="msapplication-tap-highlight">
-        <meta content="initial-scale=1, width=device-width, viewport-fit=cover" name="viewport">
-        <meta content="light dark" name="color-scheme">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.css" rel="stylesheet">
-        <link href="css/index.css" rel="stylesheet">
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="no" name="msapplication-tap-highlight">
+    <meta content="initial-scale=1, width=device-width, viewport-fit=cover" name="viewport">
+    <meta content="light dark" name="color-scheme">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Hello World</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+    <nav class="pink darken-4">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo"><img src="./img/palm-tree-logo.png" id='logo' alt="Holiday News"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="information.html">About us</a></li>
+            </ul>
         </div>
-        <script src="js/jquery-3.6.0.js"></script>
-        <script src="cordova.js"></script>
-        <script src="js/index.js"></script>
-        <script src="js/materialize.js"></script>
-    </body>
+    </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="information.html">About us</a></li>
+    </ul>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/materialize.js"></script>
+   
+</body>
+
 </html>
