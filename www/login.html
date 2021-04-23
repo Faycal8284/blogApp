@@ -14,22 +14,27 @@
 </head>
 
 <body>
+  <div class="container-fluid">
+  <div class="login pink darken-4">
     <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12">
-              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+        <form class="col s10 offset-s2">
+          <div class="row" style="margin-top:20px;">
+            <div class="input-field col s9">
+              <input placeholder="name" id="name" type="text" class="validate">
               <label for="user_name">User Name</label>
             </div>
           <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
+            <div class="input-field col s9">
+              <input id="password" placeholder="" type="password" class="validate">
               <label for="password">Password</label>
             </div>
+            <button type="submit" id="soumettre"class="col s9 btn btn-primary">Validate</button>
+
           </div>
         </form>
       </div>
-
+    </div>
+  </div>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="cordova.js"></script>
     <script src="js/index.js"></script>

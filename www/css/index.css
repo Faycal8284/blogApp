@@ -2,6 +2,20 @@
     height: 60px;
     margin-top: 2px;
 }
+.container-fluid{
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+.login{
+    width: 60%;
+    box-shadow: 8px 8px 0px #aaa;
+    border-radius: 3%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: small;
+    color: seashell;
+}
 @media (max-width: 600px){
     #logo{
         height:50px;
