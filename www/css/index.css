@@ -2,11 +2,13 @@
     height: 60px;
     margin-top: 2px;
 }
+
 .container-fluid{
     justify-content: center;
     margin-top: 40px;
     display: flex;
 }
+
 .login{
     width: 60%;
     box-shadow: 8px 8px 0px #aaa;
@@ -16,8 +18,28 @@
     font-size: small;
     color: seashell;
 }
+
+.homeTitle{
+    text-decoration: underline;
+    color:  indigo;
+}
+.avion{
+    display: flex;
+    justify-content: center;
+}
+.picturerestriction{
+    display: flex;
+    justify-content: center}
+
+.situation{
+    margin-top: 30px;
+}
+
 @media (max-width: 600px){
     #logo{
         height:50px;
+    }
+    #travelrestrictions{
+        width: 100%;
     }
 }

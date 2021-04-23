@@ -15,35 +15,91 @@
 
 <body>
     <div class="navbar-fixed">
-    <nav class="pink darken-4">
-        <div class="nav-wrapper container">
-            <a href="#!" class="brand-logo"><img src="./img/palm-tree-logo.png" id='logo' alt="Holiday News"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">News</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="information.html">About us</a></li>
-            </ul>
-        </div>
-    </nav>
+        <nav class="pink darken-4">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo"><img src="./img/palm-tree-logo.png" id='logo' alt="Holiday News"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="information.html">About us</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="information.html">About us</a></li>
     </ul>
+    <section class="situation">
+    <div class = "container">
+        <div class="row">
+            <h3 class="homeTitle">Situation actuel</h3>
+            <div class="col s4">
+                <ul>
+                    <li><strong>les sorties sont autorisées dans un rayon de 10km autour de son domicile (calculez ici
+                            la
+                        </strong>zone précise que vous pouvez parcourir) sur présentation d’un justificatif de domicile
+                        ou de
+                        l’attestation de déplacement ;</li>
+                    <li><strong> pas de déplacement en journée au-delà de 10 km sauf motif impérieux ou
+                            professionnel</strong> (sur présentation
+                        de l’attestation) ;</li>
+                </ul>
+            </div>
+            <div class="col s4">
+                <ul>
+                    <li><strong>un couvre-feu en vigueur à 19h sur tout le territoire métropolitain </strong>: les
+                        sorties et
+                        déplacements sans attestations dérogatoires sont interdits de 19h00 à 06h00, sous peine d’une
+                        amende de
+                        135 € et jusqu’à 3750 € en cas de récidive ; les établissements autorisés à ouvrir ne pourront
+                        plus
+                        accueillir de public après 19h00 ;</li>
+                </ul>
+            </div>
+            <div class="col s4">
+                <ul>
+                    <li><strong>aucun déplacement inter-régionaux n'est autorisé après le lundi 5 avril</strong>,
+                        sauf motif
+                        impérieux, incluant les motifs familiaux pour, par exemple, accompagner un enfant chez un parent
+                        ;
+                    <strong></li>
+                        <li>possibilité de retour en France pour les Français de l’étranger;
+                    </strong></li>
+                    <strong>
+                        <li>la possibilité de trajets pour les travailleurs transfrontaliers.
+                    </strong></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <section class="notreoffre">
+        <div class="picturerestriction">
+            <img src="./img/travel-restrictions-4979476_640.jpg" alt="travelRestrictions" id="travelrestrictions">
+        </div>
+        <div class="avion">
+            <p>Avec toutes ses restrictions, besoin de savoir ou voyager?</p><br>
+            <p>Cliquer sur l'avion</p><br>
+            <a href="blog.html"><img src='img/airplane-2029257_640.png'></a>
+        </div>
+
+    </section>
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="cordova.js"></script>
     <script src="js/index.js"></script>
     <script src="js/materialize.js"></script>
     <script type="text/javascript">
-        document.addEventListener("deviceready", function() {
+        document.addEventListener("deviceready", function () {
             var deviceinfo = "cordova:" + device.cordova + "<br>Model:" + device.model + "<br>UUID:" + device.uuid + "<br>Platform:" + device.platform + "(" + device.version + ")";
             document.getElementById("deviceInfoText").innerHTML = deviceinfo;
         }, false);
     </script>
-   
+
 </body>
 
 </html>
